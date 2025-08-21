@@ -5,7 +5,7 @@
     - [x] User Stories in `docs/user_stories.md` dokumentieren.
 - [x] Backend-Framework/-Sprache ausgewählt: Dart mit Serverpod.
 - [x] Datenbank ausgewählt: PostgreSQL. ORM/ODM festlegen.
-- [ ] Initiales Flutter-Projekt für Multi-Plattform-Entwicklung aufsetzen.
+- [x] Initiales Flutter-Projekt für Multi-Plattform-Entwicklung aufsetzen.
 - [ ] Initiales Backend-Projekt aufsetzen.
 - [ ] Dockerisierung für Frontend- und Backend-Dienste implementieren.
 - [ ] `.gitignore` für sensible Dateien (`.env`) anpassen.
