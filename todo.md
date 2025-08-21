@@ -11,7 +11,14 @@
 - [ ] `env-example`-Datei mit Platzhalter-Konfigurationen erstellen.
 
 ## Phase 2: Benutzerverwaltung & Authentifizierung
-- [ ] Benutzerregistrierung und -anmeldung implementieren (Frontend & Backend).
+- [ ] Implementierung der Benutzerregistrierung (Frontend & Backend).
+    - [ ] E-Mail und Passwort Registrierung.
+    - [ ] Apple ID Registrierung.
+    - [ ] Google Registrierung.
+- [ ] Implementierung der Benutzeranmeldung (Frontend & Backend).
+    - [ ] E-Mail und Passwort Anmeldung.
+    - [ ] Apple ID Anmeldung.
+    - [ ] Google Anmeldung.
 - [ ] Benutzerprofilverwaltung implementieren.
 - [ ] Sicheres Passwort-Hashing und Session-Management implementieren.
 
