@@ -10,6 +10,17 @@ JWT_SECRET=
 # Frontend Configuration
 FRONTEND_URL=http://localhost:3000
 
+# Platform Settings
+GUEST_ACCESS_ENABLED=True
+REGISTRATION_ENABLED=True
+
+# Email (SMTP) Configuration for Invitations
+SMTP_HOST=
+SMTP_PORT=587
+SMTP_USER=
+SMTP_PASSWORD=
+SMTP_FROM_EMAIL=
+
 # Payment Gateway API Keys (placeholders)
 PAYPAL_CLIENT_ID=
 PAYPAL_SECRET=

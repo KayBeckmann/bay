@@ -16,12 +16,19 @@
     - [ ] E-Mail und Passwort Registrierung.
     - [ ] Apple ID Registrierung.
     - [ ] Google Registrierung.
+    - [ ] E-Mail Einladungssystem (falls Registrierung deaktiviert).
 - [ ] Implementierung der Benutzeranmeldung (Frontend & Backend).
     - [ ] E-Mail und Passwort Anmeldung.
     - [ ] Apple ID Anmeldung.
     - [ ] Google Anmeldung.
 - [ ] Benutzerprofilverwaltung implementieren.
 - [ ] Sicheres Passwort-Hashing und Session-Management implementieren.
+- [ ] Implementierung von Administrator-Funktionen:
+    - [ ] Benutzerrollen verwalten (Moderator ernennen/entfernen).
+    - [ ] Plattform-Einstellungen steuern (`GUEST_ACCESS_ENABLED`, `REGISTRATION_ENABLED`).
+- [ ] Implementierung von Moderator-Funktionen:
+    - [ ] Streitigkeiten schlichten.
+- [ ] SMTP-Konfiguration für E-Mail-Versand einrichten.
 
 ## Phase 3: Produkt-/Dienstleistungsangebote
 - [ ] Funktionalität zum Erstellen/Bearbeiten/Löschen von Produkt-/Dienstleistungsangeboten implementieren.
