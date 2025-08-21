@@ -20,7 +20,7 @@ This file contains specific instructions and preferences for the Gemini CLI agen
 - **Technology:** Dart with Serverpod
 
 ### Database:
-- **Discussion Point:** SQL vs. NoSQL.
+- **Technology:** PostgreSQL
 
 ### Infrastructure & Deployment:
 - **Containerization:** Docker (all services in Docker containers)
