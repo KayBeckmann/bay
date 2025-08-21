@@ -2,6 +2,7 @@
 
 ## Phase 1: Projekt-Setup & Kernarchitektur
 - [x] Detaillierten Projektumfang und User Stories definieren.
+    - [x] User Stories in `docs/user_stories.md` dokumentieren.
 - [x] Backend-Framework/-Sprache ausgewählt: Dart mit Serverpod.
 - [x] Datenbank ausgewählt: PostgreSQL. ORM/ODM festlegen.
 - [ ] Initiales Flutter-Projekt für Multi-Plattform-Entwicklung aufsetzen.

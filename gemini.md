@@ -47,3 +47,6 @@ This file contains specific instructions and preferences for the Gemini CLI agen
 - Purchasing functionality.
 - Payment methods: Bank transfer, PayPal, Google Wallet, Bitcoin.
 - Multi-Sig Wallet for escrow function (for higher value transactions).
+
+### Documentation:
+- **User Stories:** Documented in `docs/user_stories.md`.
