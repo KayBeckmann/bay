@@ -17,7 +17,7 @@ This file contains specific instructions and preferences for the Gemini CLI agen
 - **Technology:** Flutter (for Android, Apple, Windows, Linux, Web-App)
 
 ### Backend:
-- **Discussion Point:** Selection of framework/language is open for suggestions. (Preference for Flutter-compatible backend)
+- **Technology:** Dart with Serverpod
 
 ### Database:
 - **Discussion Point:** SQL vs. NoSQL.

@@ -2,13 +2,14 @@
 
 ## Phase 1: Projekt-Setup & Kernarchitektur
 - [ ] Detaillierten Projektumfang und User Stories definieren.
-- [ ] Backend-Framework/-Sprache auswählen und begründen.
+- [x] Backend-Framework/-Sprache ausgewählt: Dart mit Serverpod.
 - [ ] Datenbank auswählen (SQL vs. NoSQL) und ORM/ODM festlegen.
 - [ ] Initiales Flutter-Projekt für Multi-Plattform-Entwicklung aufsetzen.
 - [ ] Initiales Backend-Projekt aufsetzen.
 - [ ] Dockerisierung für Frontend- und Backend-Dienste implementieren.
 - [ ] `.gitignore` für sensible Dateien (`.env`) anpassen.
 - [ ] `env-example`-Datei mit Platzhalter-Konfigurationen erstellen.
+- [ ] Detaillierte Recherche zu Dart-Bibliotheken für Bitcoin und Multi-Sig Wallets.
 
 ## Phase 2: Benutzerverwaltung & Authentifizierung
 - [ ] Implementierung der Benutzerregistrierung (Frontend & Backend).
