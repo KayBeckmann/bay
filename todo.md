@@ -1,7 +1,7 @@
 # To-Do Liste: Handelsplattform
 
 ## Phase 1: Projekt-Setup & Kernarchitektur
-- [ ] Detaillierten Projektumfang und User Stories definieren.
+- [x] Detaillierten Projektumfang und User Stories definieren.
 - [x] Backend-Framework/-Sprache ausgewählt: Dart mit Serverpod.
 - [x] Datenbank ausgewählt: PostgreSQL. ORM/ODM festlegen.
 - [ ] Initiales Flutter-Projekt für Multi-Plattform-Entwicklung aufsetzen.
