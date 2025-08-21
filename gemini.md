@@ -8,3 +8,28 @@ This file contains specific instructions and preferences for the Gemini CLI agen
 - [ ] Add deployment instructions here.
 - [ ] Add any other specific instructions for Gemini here.
 - [x] Nach jeder erfolgreichen Iteration und einem bestandenen Unit-Test soll ein Git-Commit erstellt und anschließend zu GitHub gepusht werden.
+
+## Project Specifics:
+### Project Type: Trading Platform (similar to eBay/Kleinanzeigen)
+
+### Frontend:
+- **Technology:** Flutter (for Android, Apple, Windows, Linux, Web-App)
+
+### Backend:
+- **Discussion Point:** Selection of framework/language is open for suggestions.
+
+### Database:
+- **Discussion Point:** SQL vs. NoSQL.
+
+### Infrastructure & Deployment:
+- **Containerization:** Docker (all services in Docker containers)
+- **Hosting:** Web server with variable URL. Option for Tor network hosting.
+- **Configuration:** All configurations in `.env` file.
+- **Version Control:** `.env` file should be in `.gitignore`.
+
+### Key Features:
+- User registration and login.
+- Offering goods and services.
+- Purchasing functionality.
+- Payment methods: Bank transfer, PayPal, Google Wallet, Bitcoin.
+- Multi-Sig Wallet for escrow function (for higher value transactions).
