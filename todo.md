@@ -7,6 +7,9 @@
 - [x] Datenbank ausgewählt: PostgreSQL. ORM/ODM festlegen.
 - [x] Initiales Flutter-Projekt für Multi-Plattform-Entwicklung aufsetzen.
 - [ ] Initiales Backend-Projekt aufsetzen.
+    - [ ] Serverpod-Monorepo (protocol/server/clients) initialisieren.
+    - [ ] Basis-Endpunkt für Health-Check bereitstellen.
+    - [ ] PostgreSQL-Anbindung konfigurieren.
 - [ ] Dockerisierung für Frontend- und Backend-Dienste implementieren.
 - [ ] `.gitignore` für sensible Dateien (`.env`) anpassen.
 - [ ] `env-example`-Datei mit Platzhalter-Konfigurationen erstellen.

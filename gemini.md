@@ -3,8 +3,12 @@
 This file contains specific instructions and preferences for the Gemini CLI agent to ensure consistent and efficient project development.
 
 ## General Guidelines:
-- [ ] Add project-specific coding style guidelines here.
-- [ ] Add preferred testing commands here.
+- [x] Add project-specific coding style guidelines here.
+    - Verwende `dart format` für Flutter- und Serverpod-Code vor jedem Commit.
+    - Naming-Konventionen folgen der offiziellen Dart-Styleguide (lowerCamelCase für Variablen/Methoden, UpperCamelCase für Klassen).
+- [x] Add preferred testing commands here.
+    - Frontend: `flutter test` im Ordner `bay_app/`.
+    - Backend: `dart test` im Ordner `serverpod/servers/app_server/` (wird mit Scaffold erstellt).
 - [ ] Add deployment instructions here.
 - [ ] Add any other specific instructions for Gemini here.
 - [x] Nach jeder erfolgreichen Iteration und einem bestandenen Unit-Test soll ein Git-Commit erstellt und anschließend zu GitHub gepusht werden.
@@ -18,6 +22,8 @@ This file contains specific instructions and preferences for the Gemini CLI agen
 
 ### Backend:
 - **Technology:** Dart with Serverpod
+    - Serverstruktur: Monorepo mit `protocol/`, `server/` und (optional) `tests/` nach Serverpod-Standard.
+    - Auth-Funktionen von Serverpod nutzen, bevor eigene Lösung implementiert wird.
 
 ### Database:
 - **Technology:** PostgreSQL
@@ -29,6 +35,7 @@ This file contains specific instructions and preferences for the Gemini CLI agen
     - `GUEST_ACCESS_ENABLED`: Boolean (True/False) to control guest visibility.
     - `REGISTRATION_ENABLED`: Boolean (True/False) to control open registration.
     - SMTP configuration for email invitations.
+    - Serverpod-spezifische Variablen (`DATABASE_URL`, `REDIS_HOST`, etc.) werden in `env-example` dokumentiert.
 - **Version Control:** `.env` file should be in `.gitignore`.
 
 ### User Roles:
