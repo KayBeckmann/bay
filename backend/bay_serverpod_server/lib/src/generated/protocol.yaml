@@ -1,2 +1,23 @@
 health:
   - status:
+auth:
+  - register:
+  - login:
+  - logout:
+  - refresh:
+profile:
+  - me:
+  - updateProfile:
+admin:
+  - listUsers:
+  - setUserRole:
+  - getSettings:
+  - updateSettings:
+moderator:
+  - listDisputes:
+  - resolveDispute:
+dispute:
+  - createDispute:
+  - myDisputes:
+invitation:
+  - requestInvite:
