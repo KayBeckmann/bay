@@ -17,23 +17,23 @@
 - [x] Detaillierte Recherche zu Dart-Bibliotheken für Bitcoin und Multi-Sig Wallets.
 
 ## Phase 2: Benutzerverwaltung & Authentifizierung
-- [ ] Implementierung der Benutzerregistrierung (Frontend & Backend).
-    - [ ] E-Mail und Passwort Registrierung.
+- [x] Implementierung der Benutzerregistrierung (Frontend & Backend).
+    - [x] E-Mail und Passwort Registrierung.
     - [ ] Apple ID Registrierung.
     - [ ] Google Registrierung.
-    - [ ] E-Mail Einladungssystem (falls Registrierung deaktiviert).
-- [ ] Implementierung der Benutzeranmeldung (Frontend & Backend).
-    - [ ] E-Mail und Passwort Anmeldung.
+    - [x] E-Mail Einladungssystem (falls Registrierung deaktiviert).
+- [x] Implementierung der Benutzeranmeldung (Frontend & Backend).
+    - [x] E-Mail und Passwort Anmeldung.
     - [ ] Apple ID Anmeldung.
     - [ ] Google Anmeldung.
-- [ ] Benutzerprofilverwaltung implementieren.
-- [ ] Sicheres Passwort-Hashing und Session-Management implementieren.
-- [ ] Implementierung von Administrator-Funktionen:
-    - [ ] Benutzerrollen verwalten (Moderator ernennen/entfernen).
-    - [ ] Plattform-Einstellungen steuern (`GUEST_ACCESS_ENABLED`, `REGISTRATION_ENABLED`).
-- [ ] Implementierung von Moderator-Funktionen:
-    - [ ] Streitigkeiten schlichten.
-- [ ] SMTP-Konfiguration für E-Mail-Versand einrichten.
+- [x] Benutzerprofilverwaltung implementieren.
+- [x] Sicheres Passwort-Hashing und Session-Management implementieren.
+- [x] Implementierung von Administrator-Funktionen:
+    - [x] Benutzerrollen verwalten (Moderator ernennen/entfernen).
+    - [x] Plattform-Einstellungen steuern (`GUEST_ACCESS_ENABLED`, `REGISTRATION_ENABLED`).
+- [x] Implementierung von Moderator-Funktionen:
+    - [x] Streitigkeiten schlichten.
+- [x] SMTP-Konfiguration für E-Mail-Versand einrichten.
 
 ## Phase 3: Produkt-/Dienstleistungsangebote
 - [ ] Funktionalität zum Erstellen/Bearbeiten/Löschen von Produkt-/Dienstleistungsangeboten implementieren.

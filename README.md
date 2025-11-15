@@ -23,7 +23,8 @@ flutter run
 ```
 
 ## Usage
-Die aktuelle Flutter-App stellt eine Material-3-konforme Grundstruktur mit Navigation für Markt, Warenkorb und Profil bereit. Weitere Funktionen werden schrittweise ergänzt.
+- Flutter-Client liefert neben Marketplace-Teasern eine Account-Seite mit Login & Registrierung, Profilpflege, Admin/Moderator-Tools und Dispute-Composer (siehe `docs/auth_architecture.md`).
+- Das Serverpod-Backend stellt passende Endpunkte bereit (auth/profile/admin/moderator/dispute/invitation) und ist über `docker/docker-compose.yml` schnell lauffähig. Aktuell laufen User & Sessions in-memory, PostgreSQL-Anbindung folgt.
 
 ## Contributing
 1. Fork nutzen und Branch anlegen (`feature/<name>`)
