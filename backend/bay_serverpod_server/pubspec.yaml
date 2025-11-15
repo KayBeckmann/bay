@@ -1,0 +1,13 @@
+name: bay_serverpod_server
+description: Serverpod backend for the Bay trading platform.
+# version: 1.0.0
+# homepage: https://www.example.com
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  serverpod: 1.2.7
+
+dev_dependencies:
+  lints: ^3.0.0

@@ -2,13 +2,21 @@
 
 # Backend Configuration
 BACKEND_PORT=8080
-DATABASE_URL=
-DATABASE_USER=
-DATABASE_PASSWORD=
-JWT_SECRET=
+BACKEND_URL=http://localhost:8080
+DATABASE_HOST=localhost
+DATABASE_PORT=8090
+DATABASE_NAME=bay_serverpod
+DATABASE_URL=postgresql://postgres:changeMe@localhost:8090/bay_serverpod
+DATABASE_USER=postgres
+DATABASE_PASSWORD=changeMe
+JWT_SECRET=replace-me
+SERVICE_SECRET_DEVELOPMENT=replace-me
+REDIS_PASSWORD=changeMe
+REDIS_PORT=8091
 
 # Frontend Configuration
 FRONTEND_URL=http://localhost:3000
+FRONTEND_PORT=3000
 
 # Platform Settings
 GUEST_ACCESS_ENABLED=True
@@ -30,3 +38,8 @@ BITCOIN_NODE_URL=
 # Tor Configuration (if applicable)
 TOR_PROXY_HOST=
 TOR_PROXY_PORT=
+
+# Docker Compose
+POSTGRES_HOST_PORT=8090
+POSTGRES_DB=bay_serverpod
+POSTGRES_USER=postgres

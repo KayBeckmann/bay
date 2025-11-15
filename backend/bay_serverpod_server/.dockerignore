@@ -1,0 +1,4 @@
+.dart_tool
+build
+config/passwords.yaml
+.git

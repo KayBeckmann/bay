@@ -1,0 +1,12 @@
+name: bay_serverpod
+
+deployment:
+  server:
+    runMode: development
+    url: http://localhost:8080
+    insightsServer:
+      url: http://localhost:8081
+
+modules:
+  serverpod_auth:
+    nickname: auth

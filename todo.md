@@ -6,14 +6,15 @@
 - [x] Backend-Framework/-Sprache ausgewählt: Dart mit Serverpod.
 - [x] Datenbank ausgewählt: PostgreSQL. ORM/ODM festlegen.
 - [x] Initiales Flutter-Projekt für Multi-Plattform-Entwicklung aufsetzen.
-- [ ] Initiales Backend-Projekt aufsetzen.
-    - [ ] Serverpod-Monorepo (protocol/server/clients) initialisieren.
-    - [ ] Basis-Endpunkt für Health-Check bereitstellen.
-    - [ ] PostgreSQL-Anbindung konfigurieren.
-- [ ] Dockerisierung für Frontend- und Backend-Dienste implementieren.
-- [ ] `.gitignore` für sensible Dateien (`.env`) anpassen.
-- [ ] `env-example`-Datei mit Platzhalter-Konfigurationen erstellen.
-- [ ] Detaillierte Recherche zu Dart-Bibliotheken für Bitcoin und Multi-Sig Wallets.
+- [x] Frontend-UI nach Google Material Design Guidelines konzipieren.
+- [x] Initiales Backend-Projekt aufsetzen.
+    - [x] Serverpod-Monorepo (protocol/server/clients) initialisieren.
+    - [x] Basis-Endpunkt für Health-Check bereitstellen.
+    - [x] PostgreSQL-Anbindung konfigurieren.
+- [x] Dockerisierung für Frontend- und Backend-Dienste implementieren.
+- [x] `.gitignore` für sensible Dateien (`.env`) anpassen.
+- [x] `env-example`-Datei mit Platzhalter-Konfigurationen erstellen.
+- [x] Detaillierte Recherche zu Dart-Bibliotheken für Bitcoin und Multi-Sig Wallets.
 
 ## Phase 2: Benutzerverwaltung & Authentifizierung
 - [ ] Implementierung der Benutzerregistrierung (Frontend & Backend).

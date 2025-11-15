@@ -1,1 +1,14 @@
 .env
+# Flutter & Dart
+**/.dart_tool/
+**/build/
+**/ios/Pods/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+
+# Serverpod secrets
+backend/bay_serverpod_server/config/passwords.yaml
+
+# Misc
+.DS_Store
+.idea/
